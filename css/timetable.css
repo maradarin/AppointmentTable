@@ -1,0 +1,24 @@
+div#wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+div#inscriere {
+  border: 5px solid gray;
+  height: 300px;
+  visibility: hidden;
+}
+
+input[type="text"]#gap{
+    -webkit-appearance:none!important;
+    background: white;
+}
+
+input[type="text"]#hour{
+    -webkit-appearance:none!important;
+    background: white;
+}
+
+.confirmed {
+  background-color: red;
+}
